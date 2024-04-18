@@ -231,14 +231,6 @@ def clip_line_cyrus_beck(P0, P1, xmin, xmax, ymin, ymax):
 
     return P0_new, P1_new
 
-# # Пример использования
-# P0 = (1, 1)
-# P1 = (8, 5)
-# xmin, xmax, ymin, ymax = 2, 6, 3, 7
-#
-# P0_new, P1_new = clip_line_cyrus_beck(P0, P1, xmin, xmax, ymin, ymax)
-# print("Новые точки отрезка:", P0_new, P1_new)
-
 
 
 def display(window):
